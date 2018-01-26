@@ -1,0 +1,20 @@
+{
+  "presets": [
+    "react-native"
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "BASIC": "./basic",
+          "UI": "./basic/js/ui",
+          "RES": "./basic/res",
+          "REDUX": "./basic/js/redux",
+          "TOOLS":"./basic/js/tools"
+        }
+      }
+    ]
+  ]
+}
